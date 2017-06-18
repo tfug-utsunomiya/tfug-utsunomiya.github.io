@@ -34,6 +34,7 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 STATIC_PATHS = [
+    'images',
     'extra/favicon.ico'
 ]
 EXTRA_PATH_METADATA = {

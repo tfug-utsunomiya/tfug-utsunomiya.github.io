@@ -1,8 +1,8 @@
 Title: Hello, TFUG Utsunomiya Blog!
-Date: 2017-06-18 17:00
+Date: 2017-06-18 15:00
 Category: News
 Tags: tfug-utsunomiya, tensorflow
-Slug: helloworld
+Slug: hello
 Author: tfug-utsunomiya
 Summary: TFUG Utsunomiya Blogのご紹介
 
