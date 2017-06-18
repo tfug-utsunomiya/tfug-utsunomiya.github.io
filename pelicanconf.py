@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'tfug-utsunomiya'
-SITENAME = 'TensorFlow Utsunomiya Blog'
+SITENAME = 'TFUG Utsunomiya Blog'
 SITEURL = ''
 
 PATH = 'content'
@@ -26,7 +26,8 @@ LINKS = (('TensorFlow', 'https://www.tensorflow.org/'),
 
 # Social widget
 SOCIAL = (('Github', 'https://github.com/tfug-utsunomiya'),
-          ('Twitter', 'https://twitter.com/search?q=%23tfug_utsunomiya'),)
+          ('Twitter', 'https://twitter.com/search?q=%23tfug_utsunomiya'),
+          ('Facebook', 'https://www.facebook.com/groups/762136920622347/'))
 
 DEFAULT_PAGINATION = 10
 
