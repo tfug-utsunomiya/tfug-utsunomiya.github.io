@@ -21,10 +21,10 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="/201803.html">TFUG Utsunomiya #09 を開催しました！</a></h1>
+                    <h1 class="entry-title"><a href="/201804.html">TFUG Utsunomiya #10 を開催しました！</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2018-04-25T21:00:00+09:00">
-                Published: Wed 25 April 2018
+        <abbr class="published" title="2018-04-23T21:00:00+09:00">
+                Published: Mon 23 April 2018
         </abbr>
 
         <address class="vcard author">
@@ -33,9 +33,9 @@
 <p>In <a href="/category/log.html">Log</a>.</p>
 <p>tags: <a href="/tag/tfug-utsunomiya.html">tfug-utsunomiya</a> <a href="/tag/tensorflow.html">tensorflow</a> </p>
 </footer><!-- /.post-info --><p>こんにちは。TFUG Utsunomiyaの木村です。</p>
-<p>2018年3月25日（日）にTFUG Utsunomiya #09を宇都宮大学 陽東キャンパス 9号棟1F 9-108室で開催しました。</p>
+<p>2018年4月22日（日）にTFUG Utsunomiya #10を宇都宮大学 陽東キャンパス 9号棟1F 9-108室で開催しました。</p>
 <h2>参加者数</h2>
-<p>参加者数は7名でした。初参加の方が3名いらっしゃいました。</p>
+<p>参加者数は7名でした。初参加の方が1名いらっしゃいました。</p>
 <h2>タイムスケジュール</h2>
 <table>
 <thead>
@@ -59,7 +59,7 @@
 </tr>
 <tr>
 <td align="center">14:30 〜 16:00</td>
-<td align="center">Kerasを使ったLSTMによる株価予想チュートリアル</td>
+<td align="center">TensorFlow/KerasによるWord2vec</td>
 </tr>
 <tr>
 <td align="center">16:00 〜 16:15</td>
@@ -67,7 +67,7 @@
 </tr>
 <tr>
 <td align="center">16:15 〜 17:00</td>
-<td align="center">Kerasを使ったLSTMによる株価予想チュートリアル（続き）</td>
+<td align="center">TensorFlow/KerasによるWord2vec（続き）</td>
 </tr>
 <tr>
 <td align="center">17:00 〜 17:15</td>
@@ -76,22 +76,45 @@
 </tbody>
 </table>
 <h2>会場の様子</h2>
-<p><img alt="2018-03-25-01.jpg" src="/images/2018-03-25-01.jpg"> <img alt="2018-03-25-02.jpg" src="/images/2018-03-25-02.jpg">
-<img alt="2018-03-25-03.jpg" src="/images/2018-03-25-03.jpg"> <img alt="2018-03-25-04.jpg" src="/images/2018-03-25-04.jpg">
-<img alt="2018-03-25-05.jpg" src="/images/2018-03-25-05.jpg"> <img alt="2018-03-25-06.jpg" src="/images/2018-03-25-06.jpg">
-<img alt="2018-03-25-07.jpg" src="/images/2018-03-25-07.jpg"> <img alt="2018-03-25-08.jpg" src="/images/2018-03-25-08.jpg"></p>
+<p><img alt="2018-04-22-01.jpg" src="/images/2018-04-22-00.jpg"> <img alt="2018-04-22-02.jpg" src="/images/2018-04-22-01.jpg">
+<img alt="2018-04-22-03.jpg" src="/images/2018-04-22-02.jpg"> <img alt="2018-04-22-04.jpg" src="/images/2018-04-22-03.jpg">
+<img alt="2018-04-22-05.jpg" src="/images/2018-04-22-04.jpg"> <img alt="2018-04-22-06.jpg" src="/images/2018-04-22-05.jpg">
+<img alt="2018-04-22-07.jpg" src="/images/2018-04-22-06.jpg"> <img alt="2018-04-22-08.jpg" src="/images/2018-04-22-07.jpg"> <img alt="2018-04-22-09.jpg" src="/images/2018-04-22-08.jpg"></p>
 <h2>実施内容</h2>
-<p>いつも通り、最初に「なぜ参加しようと思ったのか、技術的なバックグラウンドはあるか」などを自己紹介してもらいました。Kerasの勉強会では、前回に引き続き、<a href="https://www.buildinsider.net/small/deeplearningnext/stockprediction">"Kerasを使ったLSTMによる株価予想チュートリアル"</a>を手を動かしながら読み進めていきました。今回は、Excelを持っていない人のために<a href="https://colab.research.google.com/drive/10_YwARUCKhDXsTfY_BsfLj2SSGJNbgIu">Colaboratoryのノートブック</a>を導入しました。各自好きな企業の株価データをダウンロードし、全員がKerasでLSTMを実装し株価騰落の予測を行うことができました。</p>
+<p>今回は、ニューラルネットを使った単語の埋め込み表現（分散表現）の方法としてword2vecを、<a href="https://www.buildinsider.net/small/deeplearningnext/word2vec">「挑戦！ word2vecで自然言語処理（Keras＋TensorFlow使用）」</a>を参考に学んでいきました。最初に単語の埋め込み表現の概要を紹介し、CBOWモデルとSkip-gramモデルの仕組みについてディスカッションを行いました。その後は各自、青空文庫にある小説を選んでテキストをMecabによる分かち書きとword2vecのためのデータセット作りを行いました。</p>
 <h2>感想</h2>
-<p>ある参加者の方から、「テキスト通りにやっているがCSVファイルがダウンロードできない」と質問を受け、一緒に確認してみると広告ブロックソフトによりリンクが隠れてしまっていたようです。人が集まってやってみると、些細なことでも隣の人にすぐ聞くことができるので色々と学ぶことがあるのではないでしょうか。</p>
-<p>また投資の経験がある方から「実際の投資で参考にしたい」、「次は仮想通貨で予測を試してみたい」という感想をいただけて良かったと思います。今後も身近なテーマを題材に、機械学習・深層学習のプログラミングに挑戦していきたいと思います。</p>
+<p>参加者のみなさんは言語処理がはじめてで最初は分からないことが多かったようですが、ディスカッションを通してCBOWやSkip-gramによる埋め込み表現については納得していただけたようです。また、データセット作りからword2vecの実装までできた方は、夏目漱石「こころ」をword2vecで学習させて「K」と「お嬢さん」のコサイン類似度が近いことが分かり喜んでいました。言語は身近なテーマなので興味を持ってもらえて良かったです。中国語を母語とする方が3名参加していたので、次回はニューラルネットによる漢詩の自動生成などもやってみていけたらと考えています。</p>
 <h1>次回予定</h1>
-<p>次回のTFUG Utsunomiya #10は、4月末に予定しております。来月からは、twitterや青空文庫を題材に、深層学習による言語処理（word2vec、seq2seq）を実際に動かしながらやっていく予定です。</p>                </article>
+<p>次回の<strong>TFUG Utsunomiya #11</strong>はゲスト講師の方をお呼びしてディープラーニングを使った開発についてお話していただく予定です。開催日は5月27日に予定しております。</p>
+<p><a href="https://tfug-utsunomiya.connpass.com/event/83835/">https://tfug-utsunomiya.connpass.com/event/83835/
+</a></p>                </article>
             </aside><!-- /#featured -->
                 <section id="content" class="body">
                     <h1>Other articles</h1>
                     <hr />
                     <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/201803.html" rel="bookmark"
+                           title="Permalink to TFUG Utsunomiya #09 を開催しました！">TFUG Utsunomiya #09 を開催しました！</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2018-03-25T21:00:00+09:00">
+                Published: Sun 25 March 2018
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/tfug-utsunomiya.html">tfug-utsunomiya</a>
+        </address>
+<p>In <a href="/category/log.html">Log</a>.</p>
+<p>tags: <a href="/tag/tfug-utsunomiya.html">tfug-utsunomiya</a> <a href="/tag/tensorflow.html">tensorflow</a> </p>
+</footer><!-- /.post-info -->                <p>TFUG Utsunomiya #09 振り返り</p>
+                <a class="readmore" href="/201803.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>
@@ -266,28 +289,6 @@
 <p>tags: <a href="/tag/tfug-utsunomiya.html">tfug-utsunomiya</a> <a href="/tag/tensorflow.html">tensorflow</a> </p>
 </footer><!-- /.post-info -->                <p>TFUG Utsunomiya #01の振り返り</p>
                 <a class="readmore" href="/201705.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="/201704.html" rel="bookmark"
-                           title="Permalink to TFUG Utsunomiya キックオフミーティングを開催しました">TFUG Utsunomiya キックオフミーティングを開催しました</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2017-06-18T16:00:00+09:00">
-                Published: Sun 18 June 2017
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/akimach.html">akimach</a>
-        </address>
-<p>In <a href="/category/log.html">Log</a>.</p>
-<p>tags: <a href="/tag/tfug-utsunomiya.html">tfug-utsunomiya</a> <a href="/tag/tensorflow.html">tensorflow</a> </p>
-</footer><!-- /.post-info -->                <p>TFUG Utsunomiya キックオフミーティングを開催しました</p>
-                <a class="readmore" href="/201704.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
                 </ol><!-- /#posts-list -->
