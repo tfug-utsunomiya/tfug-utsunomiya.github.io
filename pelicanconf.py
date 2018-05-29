@@ -7,9 +7,7 @@ SITENAME = 'TFUG Utsunomiya Blog'
 SITEURL = ''
 
 PATH = 'content'
-
 TIMEZONE = 'Asia/Tokyo'
-
 DEFAULT_LANG = 'ja'
 
 # Feed generation is usually not desired when developing
@@ -21,15 +19,14 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('TensorFlow', 'https://www.tensorflow.org/'),
-         ('TensorFlow User Group Utsunomiya', 'https://tfug-utsunomiya.connpass.com/'),
-         ('Python.org', 'http://python.org/'),)
+         ('TFUG Utsunomiya', 'https://tfug-utsunomiya.connpass.com/'),)
 
 # Social widget
 SOCIAL = (('Github', 'https://github.com/tfug-utsunomiya'),
           ('Twitter', 'https://twitter.com/search?q=%23tfug_utsunomiya'),
-          ('Facebook', 'https://www.facebook.com/groups/762136920622347/'))
+          ('Facebook', 'https://www.facebook.com/groups/762136920622347'))
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
